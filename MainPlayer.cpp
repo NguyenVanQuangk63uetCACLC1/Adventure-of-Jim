@@ -448,7 +448,7 @@ void MainPlayer::CheckPlayerandMap(Map& map_data)
 					y_val_ = 0;
 
 					on_ground_ = true;	//lúc này đang trên mặt đất
-					if (status_ = WALK_BEGIN_)
+					if (status_ == WALK_BEGIN_)
 					{
 						status_ = WALK_RIGHT_;
 					}
